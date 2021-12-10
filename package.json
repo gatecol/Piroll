@@ -1,0 +1,21 @@
+{
+    "name": "black_sea",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "compile": "node-sass scss/ -o css/",
+        "watch": "npm run compile && node-sass scss/styles.scss -wo css"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/crockett1981/piroll.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "homepage": "https://github.com/crockett1981/piroll#readme",
+    "dependencies": {
+        "node-sass": "7.0.0",
+        "bootstrap": "5.1.3"
+    }
+}

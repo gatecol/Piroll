@@ -1,0 +1,9 @@
+body {
+  margin: 0; }
+
+.banner {
+  height: 673px;
+  background: url("../images/laptop.jpg") no-repeat center center fixed; }
+
+.skills {
+  width: 100%; }
