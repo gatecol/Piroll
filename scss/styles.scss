@@ -1,14 +1,14 @@
 body {
+    width: 100%;
+    height: 100%;
     margin: 0;
+    padding: 0;
+    overflow-x: hidden;
 }
 
 .banner {
     height: 673px;
     background: url("../images/laptop.jpg") no-repeat center center fixed;
-}
-
-.about {
-    //height: 418px;
 }
 
 .skills {
