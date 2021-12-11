@@ -13,5 +13,14 @@ body {
   padding-right: 0px;
   margin-right: 0px; }
 
+.progress {
+  height: 3px; }
+
+.progress-bar {
+  background-color: #10c9c3; }
+
 .skills {
   width: 100%; }
+
+.info {
+  background-color: #f8f9f9; }
