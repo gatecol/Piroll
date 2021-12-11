@@ -24,3 +24,10 @@ body {
 
 .info {
   background-color: #f8f9f9; }
+
+.numbers {
+  background-color: #10c9c3; }
+  .numbers h6 {
+    color: white; }
+  .numbers h5 {
+    color: white; }
