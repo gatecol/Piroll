@@ -25,8 +25,12 @@ body {
 .info {
   background-color: #f8f9f9; }
 
-.work {
-  height: 700px; }
+.load {
+  background-color: #f5f5f5; }
+  .load p {
+    color: #8e8e8e; }
+  .load:hover {
+    background-color: #d5d5d5; }
 
 .hover-overlay {
   float: left;
