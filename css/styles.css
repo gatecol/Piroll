@@ -57,3 +57,8 @@ body {
     opacity: 1;
     filter: alpha(opacity=100);
     cursor: pointer; }
+
+.work-process .player {
+  position: relative; }
+  .work-process .player .play {
+    position: absolute; }

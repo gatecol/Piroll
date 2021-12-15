@@ -77,3 +77,14 @@ body {
         cursor: pointer;
     }
 }
+
+.work-process {
+
+    .player {
+        position: relative;
+
+        .play {
+            position: absolute;
+        }
+    }
+}
