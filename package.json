@@ -4,8 +4,8 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "compile": "node-sass scss/ -o css/",
-        "watch": "npm run compile && node-sass scss/styles.scss -wo css"
+        "build-css": "node-sass --include-path scss scss/styles.scss css/styles.css",
+        "watch-css": "nodemon -e scss -x \"npm run build-css\" "
     },
     "repository": {
         "type": "git",
@@ -15,7 +15,8 @@
     "license": "ISC",
     "homepage": "https://github.com/crockett1981/piroll#readme",
     "dependencies": {
-        "node-sass": "7.0.0",
+        "node-sass": "7.0.1",
+        "nodemon": "^2.0.15",
         "bootstrap": "5.1.3"
     }
 }
